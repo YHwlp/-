@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选项卡</title>
+	<style>
+		p{
+			margin: 0;
+			padding: 0;
+			color: #999;
+			line-height: 1.5;
+			font-size: 14px;
+			font-family: "Microsoft YaHei",SimHei,arial;
+		}
+		a{
+			text-decoration: none;
+			color:#444;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		ul{
+			list-style:none;
+			margin: 0;
+			padding: 0;
+		}
+		.tabs li{
+			font-size: 18px;
+			padding: 18px;
+			padding-left: 28px;
+			background: url(imagse/icon1.png) 10px no-repeat;
+		}
+		.tabs .cur{
+			color: #046fbb;
+		}
+		.tab_box{
+			width: 500px;
+		}
+		.tabs{
+			display: flex;
+		}
+		img{
+			float: left;
+			margin-right:15px;
+		}
+		.content div {
+			height: 200px;
+			display: none;
+		}
+		.content .show{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="tab1" class="tab_box">
+		<ul class="tabs">
+			<li class="cur">时政要闻</li>
+			<li>学院新闻</li>
+		</ul>
+		<div class="content">
+			<div class="show">
+				<img src="imagse/bwcx.png" width="200" height="76">
+				<a href="#">总书记论“不忘初心，牢记使命”</a>
+				<p>中国共产党的初心和使命，就是为中国人民谋幸福，为中华名族谋复兴。 ———习近平‍</p>
+			</div>
+			<div>
+				<img src="imagse/dh.jpg" width="200" height="133">
+				<a href="#">我院召开“不忘初心、牢记使命”主题教育动员大会</a>
+				<p>9月11日下午，我院在笃学楼学术报告厅召开“不忘初心、牢记使命”主题教育动员大会。省委第十二巡回指导组组长王莹出席会议并讲话。学院党委书记、院长田明欣作动员讲话，对全院主题教育进行部署</p>
+			</div>
+		</div>
+	</div>
+	<div id="tab2" class="tab_box">
+		<ul class="tabs">
+			<li class="cur">通知公告</li>
+			<li>学术动态</li>
+		</ul>
+		<div class="content">
+			<div class="show">
+				<a href="#">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公告</a>
+				<p>由于内容修改，原公告相关内容声明无效，以新公告为准。更正内容为：1、原公告日期：2019年10月30日2、原公告内容:投标文件递交的截止时间为2019年11月21日10:30，地点为河北公共资源交易中心418会议室更正为：投标文件递交的截止时间为2019年11月27日15:30，地点为 河北公共资源交易中心417会议室。</p>
+			</div>
+			<div>
+				<a href="#">我院学报被评为“RCCSE中国高职高专成高院校学报类核心期刊”</a>
+				<p>2017年1月《中国学术期刊评价研究报告（武大版）（2017-2018）》（简称RCCSE）（第5版）评价结果正式公布，本刊被评为中国高职高专成高院校学报类核心期刊。该研究报告的高职高专成高院校学报评价部分共收录302种高职高专成高院校学报，经过2个综合学科类的分类评价,共选出91种核心高职高专成高院校学报(A和A-等级)，其中社会科学综合类期刊73种，自然科学综合类期刊18种。本刊在社会科学综合类中位列第44名。</p>
+			</div>
+		</div>
+  <div id="tab3" class="tab_box">
+		<ul class="tabs">
+			<li class="cur">校企合作</li>
+			<li>媒体报道</li>
+		</ul>
+		<div class="content">
+			<div class="show">
+				<a href="#">我院与雄安新区安新县永安职业培训学校签约仪式</a>
+				<p>10月10日下午，我院与雄安新区安新县永安职业培训学校在恒志楼八楼会议室举行了合作意向签约仪式，副院长王会强、社会服务中心主任代学钢及雄安新区安新县永安职业培训学校领导参加了仪式。此次合作协议的签订是贯彻落实《国家职业教育改革实施方案》（职教20条）和《河北省职业教育改革发展实施方案》等文件要求，更好地助力雄安新区经济建设和社会发展，满足雄安新区高技能人才需求的有力举措。副院长王会强赴雄安实地考察，合作双方本着“资源共享、优势互补、诚信合作、服务社会”的原则，在信息技术、大数据、物联网、电子商务等方面进行深度合作，开展社会培训和职业资格鉴定，积极申报雄安新区高技能人才培训基地。</p>
+			</div>
+			<div>
+				<a href="http://www.yzdb.cn/html/20194270814.html">河北软件职业技术学院：对接军民融合战略，探索文化育人新路径军心铸魂，军风炼志，军技强能</a>
+				<p>借落实职业院校管理能力提升计划和高职创新行动计划之机，河北软件职业技术学院积极推动文化育人创新，借助与驻地部队长期友好合作的资源优势，对接国家军民融合发展战略，探索出一条将军校融合开展文化育人，培养社会主义建设者和接班人的有效途径，学校也被河北省教育厅推荐为国家国防教育特色学校。</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script>
+		function tab(id){
+			var box=document.getElementById(id);
+			var ul=box.getElementsByClassName('tabs')[0];
+			var lis=ul.getElementsByTagName('li');
+			var div=box.getElementsByClassName('content')[0];
+			var divs=div.getElementsByTagName('div');
+			for(var i=0;i<lis.length;i++){
+				lis[i].index=i;
+				lis[i].onclick=function () {
+					for(var i=0;i<lis.length;i++){
+						lis[i].removeAttribute('class');
+					}
+					for(var i=0;i<divs.length;i++){
+						divs[i].removeAttribute('class');
+					}
+					this.className='cur';
+					divs[this.index].className='show';
+				}
+			}
+		}
+		tab('tab1');
+		tab('tab2');
+		tab('tab3');
+	</script>
+</body>
+</html>
